@@ -6,6 +6,7 @@ The model sets a simple state machine, a non-deterministic environment and
 a set of 4 LTL properties are verified.
 
 The LTL properties are:
+
 1.  `(x == ENABLE) -> <> (state == OFF) `
 2.  `[]((x == DISABLE) -> <>(state == OFF)) `
 3.  `[](count == 0) -> <>(state == OFF)`
