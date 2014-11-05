@@ -13,7 +13,7 @@ The LTL properties are:
 4.  `[]( (state == HOLD) -> ((x != DISABLE) && (x != RESUME) )) -> <>(state == STANDBY) `
 
 To compile and verify the model you can use 'ispin' (SPIN graphical environment),
-or, using the command line, with:
+or, using the command line:
 
 - `spin -a cruise.pml`
 - `gcc -o pan pan.c`
