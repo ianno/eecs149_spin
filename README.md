@@ -17,8 +17,8 @@ or, using the command line:
 
 - `spin -a cruise.pml`
 - `gcc -o pan pan.c`
-- `./pan -N p1 (for property p1)`
-- `./pan -N p2 (for property p2)`
+- `./pan -a -N p1 (for property p1)`
+- `./pan -a -N p2 (for property p2)`
 - ...
 
 Author: Antonio Iannopollo
